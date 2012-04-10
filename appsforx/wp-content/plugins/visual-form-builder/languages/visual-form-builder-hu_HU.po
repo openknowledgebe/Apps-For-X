@@ -1,0 +1,403 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Visual Form Builder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-06 13:57-0600\n"
+"PO-Revision-Date: 2012-02-10 11:54+0100\n"
+"Last-Translator: glocs <inkabb.nem@gmail.kom>\n"
+"Language-Team: glocs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder\n"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-detail.php:40
+msgid "Details"
+msgstr "Részletek"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-detail.php:46
+msgid "Form Title"
+msgstr "Űrlap cím"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-detail.php:49
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-list.php:98
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-list.php:222
+msgid "Date Submitted"
+msgstr "Elkészítés dátuma"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-detail.php:52
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-list.php:97
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-list.php:226
+msgid "IP Address"
+msgstr "IP cím"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-detail.php:55
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-list.php:93
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-list.php:230
+msgid "Email Subject"
+msgstr "Email tárgy"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-detail.php:58
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-list.php:94
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-list.php:234
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:817
+msgid "Sender Name"
+msgstr "Küldő Név"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-detail.php:61
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-list.php:95
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-list.php:238
+msgid "Sender Email"
+msgstr "Küldő Email"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-detail.php:64
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-list.php:96
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-list.php:242
+msgid "Emailed To"
+msgstr "Címzett"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-detail.php:84
+msgid "Entry"
+msgstr "Bejegyzés"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-list.php:67
+msgid "Cancel"
+msgstr "Mégse"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-list.php:92
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-list.php:218
+msgid "Form"
+msgstr "Űrlap"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-list.php:168
+msgid "Delete"
+msgstr "Törlés"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-list.php:169
+msgid "Export All"
+msgstr "Minden exportálása"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-list.php:170
+msgid "Export Selected"
+msgstr "A kiválasztottak exportálása"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-list.php:214
+msgid "Entries ID"
+msgstr "Bejegyzés ID"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-list.php:369
+msgid "View all forms"
+msgstr "Minden űrlap"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/class-entries-list.php:376
+msgid "Filter"
+msgstr "Szűrő"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:340
+msgid "Settings"
+msgstr "Beállítások"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:353
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:643
+msgid "Visual Form Builder"
+msgstr "Visual Form Builder"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:383
+#, php-format
+msgid "<div id=\"message\" class=\"updated\"><p>The <strong>%s</strong> form has been created.</p></div>"
+msgstr "<div id=\"message\" class=\"updated\"><p>Az <strong>%s</strong> űrlap elkészítve.</p></div>"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:499
+#, php-format
+msgid "<div id=\"message\" class=\"updated\"><p>The <strong>%s</strong> form has been updated.</p></div>"
+msgstr "<div id=\"message\" class=\"updated\"><p>Az <strong>%s</strong> űrlap frissítve.</p></div>"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:645
+msgid "Forms"
+msgstr "Űrlapok"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:646
+msgid "Entries"
+msgstr "Bejegyzések"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:685
+msgid "Form Items"
+msgstr "Űrlap mezők"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:688
+msgid "Click"
+msgstr "Kattintás"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:688
+msgid "to Add a Field"
+msgstr "mező hozzáadása"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:712
+msgid "Form Output"
+msgstr "Űrlap kimenet"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:715
+msgid "Copy this shortcode and paste into any Post or Page."
+msgstr "Másold ki ezt a kódot és illeszd be bármely oldalba, vagy bejegyzésbe."
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:794
+msgid "Form Name"
+msgstr "Űrlap neve"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:804
+msgid "Customize Email Details"
+msgstr "Email részletek testreszabása"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:804
+msgid "Email Details"
+msgstr "Email részletek"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:805
+msgid "Customize Confirmation Message"
+msgstr "Megerősítő email testreszabása"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:805
+msgid "Confirmation"
+msgstr "Megerősítés"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:806
+msgid "Customize Notification Email"
+msgstr "Értesítő email testreszabása"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:806
+msgid "Notification"
+msgstr "Értesítés"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:810
+msgid "The forms you build here will send information to one or more email addresses when submitted by a user on your site.  Use the fields below to customize the details of that email."
+msgstr "Az elkészített űrlap információt küld egy, vagy több email címre, ha a felhasználó elküldte. Használd az alábbi mezőket az email testre szabásához."
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:812
+msgid "E-mail Subject"
+msgstr "E-mail tárgy"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:822
+msgid "Select a required text field"
+msgstr "Válassz egy kötelező mezőt"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:831
+msgid "Sender E-mail"
+msgstr "Küldő e-mail"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:834
+msgid "OR"
+msgstr "VAGY"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:836
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:899
+msgid "Select a required text field with email validation"
+msgstr "Válassz egy kötelező mezőt, ami email formátumú."
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:845
+msgid "E-mail(s) To"
+msgstr "E-mail(ek) címzettje"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:848
+msgid "(multiple emails separated by commas)"
+msgstr "(több email esetén vesszővel elválasztva)"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:852
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:888
+msgid "After someone submits a form, you can control what is displayed. By default, it's a message but you can send them to another WordPress Page or a custom URL."
+msgstr "Az űrlap elküldése után megjelenő rész. Alapból egy üzenet, de akár egy WordPress oldalra, vagy URL-re is küldheted."
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:855
+msgid "Text"
+msgstr "Szöveg"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:859
+msgid "Page"
+msgstr "Oldal"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:863
+msgid "Redirect"
+msgstr "Átirányítás"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:870
+msgid "Your form was successfully submitted. Thank you for contacting us."
+msgstr "Az űrlap sikeresen elküldve. Köszönjük a megkeresést!"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:879
+msgid "Select a Page"
+msgstr "Válassz oldalt"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:891
+msgid "Send Confirmation Email to User"
+msgstr "Megerősítő email küldése a felhasználónak"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:896
+msgid "Send To"
+msgstr "Címzett"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:908
+msgid "Subject"
+msgstr "Tárgy"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:912
+msgid "Message"
+msgstr "Üzenet"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:918
+msgid "Include a Copy of the User's Entry"
+msgstr "A felhasználó bejegyzésének másolása"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:925
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1072
+msgid "Create Form"
+msgstr "Űrlap készítése"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:925
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1072
+msgid "Save Form"
+msgstr "Űrlap mentése"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:929
+msgid "Delete Form"
+msgstr "Űrlap törlése"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:939
+msgid "To create a custom form, give it a name above and click Create Form. Then choose form elements from the left column to add to this form."
+msgstr "Saját űrlap készítéséhez adj nevet a fenti fülön és kattints az Űrlap készítése gombra. Aztán válassz űrlap elemet a bal oldali dobozból."
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:940
+msgid "After you have added your items, drag and drop to put them in the order you want. You can also click each item to reveal additional configuration options."
+msgstr "A hozzáadott elemet fogd-és-vidd módszerrel tudod rendezni. Minden elemet tudsz szerkeszteni, ha rákattintasz."
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:941
+msgid "When you have finished building your custom form, make sure you click the Save Form button."
+msgstr "Ha befejezted az űrlap készítését, kattints az Űrlap mentése gombra."
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:942
+msgid "For more help, click on the Help tab at the top of this page."
+msgstr "Segítségért kattints a fent található Súgó fülre."
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:948
+msgid "Select form inputs from the box at left to begin building your custom form. An initial fieldset has been automatically added to get you started."
+msgstr "Válassz mezőt a bal oldali dobozból a saját űrlap építéséhez. Egy kezdő mező már automatikusan hozzáadódott."
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:964
+msgid "Edit Field Item"
+msgstr "Mező szerkesztése"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:979
+msgid "Name"
+msgstr "Név"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:985
+msgid "Description"
+msgstr "Magyarázat"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1003
+msgid "Options (separated by commas)"
+msgstr "Opciók (vesszővel elválasztva)"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1018
+msgid "12 Hour Format"
+msgstr "12 órás formátum"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1019
+msgid "24 Hour Format"
+msgstr "24 órás formátum"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1021
+msgid "None"
+msgstr "Üres"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1022
+msgid "Email"
+msgstr "Email"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1023
+msgid "URL"
+msgstr "URL"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1024
+msgid "Date"
+msgstr "Dátum"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1025
+msgid "Number"
+msgstr "Szám"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1026
+msgid "Digits"
+msgstr "Számok"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1027
+msgid "Phone"
+msgstr "Telefon"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1034
+msgid "Required"
+msgstr "Kötelező"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1036
+msgid "No"
+msgstr "Nem"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1037
+msgid "Yes"
+msgstr "Igen"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1045
+msgid "Size"
+msgstr "Méret"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1047
+msgid "Medium"
+msgstr "Közepes"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1048
+msgid "Large"
+msgstr "Nagy"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1055
+msgid "Remove"
+msgstr "Törlés"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1383
+msgid "Verification"
+msgstr "Ellenőrzés"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1387
+msgid "Please enter any two digits with"
+msgstr "Kérlek, írj be két tetszőleges számot"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1387
+msgid "no"
+msgstr "szóköz"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1387
+msgid "spaces (Example: 12)"
+msgstr "nélkül (Például: 12)"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1394
+msgid "This box is for spam protection"
+msgstr "Ez a mező a spam robotok ellen véd"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1394
+msgid "please leave it blank"
+msgstr "kérlek, hagyd üresen"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1401
+msgid "Submit"
+msgstr "Küldés"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1427
+msgid "Security check"
+msgstr "Biztonsági ellenőrzés"
+
+#: /Applications/MAMP/htdocs/wp3/wp-content/plugins/visual-form-builder/visual-form-builder.php:1589
+msgid "Ooops! Looks like you have failed the security validation for this form. Please go back and try again."
+msgstr "Hoppááá! Úgy tűnik, nem sikerült a biztonsági ellenőrzés. Kérlek, próbáld újra."
+

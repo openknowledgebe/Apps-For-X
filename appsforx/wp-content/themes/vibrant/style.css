@@ -1,0 +1,1100 @@
+﻿/*
+Theme Name: Vibrant WordPress Theme
+Theme URI:
+Description: A truly vibrant theme for WordPress.
+Version: 1.0
+Author: Ahmad Fouad
+Author URI:
+*/
+
+/***************************************************/
+* {
+	font-family: arial, "Trebuchet MS";
+	color: #666;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0 none;
+	text-decoration: none;
+	white-space: normal;
+	vertical-align: baseline;
+}
+
+html, body {line-height: 1}
+hr {display: none}
+blockquote:before, blockquote:after, q:before, q:after {content: ''}
+blockquote, q {quotes: "" ""}
+ul {list-style-type: none}
+ol {list-style-type: decimal}
+.clear {clear: both}
+/***************************************************/
+body {
+	background: #F0F0F0 url(images/bg.png) repeat-x top;
+	text-align: center;
+}
+
+#container {
+	width: 760px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+}
+
+#header {
+	width: 760px;
+	height: 173px;
+}
+/***************************************************/
+.menu-main-menu-container {
+	float: left;
+	width: 565px;
+	height: 45px;
+}
+
+.menu-main-menu-container ul {
+	float: left;
+	padding-top: 15px;
+	padding-left: 10px;
+	height: 30px;
+}
+
+.menu-main-menu-container ul li {
+	float: left;
+	height: 30px;
+	text-align: center;
+	margin-right: 2px;
+}
+
+.menu-main-menu-container ul li a {
+	background: #137E9E;
+	float: left;
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 30px;
+	height: 30px;
+	font-size: 14px;
+	letter-spacing: -1px;
+	color: #A7CAD4;
+	font-weight: bold;
+	border-radius: 3px 3px 0 0;
+}
+
+.menu-main-menu-container ul li a:hover {
+	background: #189dc4;
+	color: #fff;
+}
+
+.menu-main-menu-container ul li.current_page_item a {
+	background: #189dc4;
+	color: #FFF;
+}
+
+.menu-main-menu-container ul li.current_page_item a:hover {
+	background: #189dc4;
+	color: #FFF;
+}
+/***************************************************/
+#searchform {
+	float: left;
+	width: 195px;
+	height: 45px;
+}
+
+#searchform form {
+	float: right;
+	display: inline;
+	width: 195px;
+	height: 45px;
+}
+
+#searchform fieldset {
+	float: right;
+	display: inline;
+	padding-top: 10px;
+	height: 35px;
+}
+
+#searchform input {
+	display: inline;
+	vertical-align: middle;
+	font-size: 11px;
+}
+
+#searchinput {
+	width: 130px;
+	height: 20px;
+	padding: 3px 10px;
+	background: #F0F0F0;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.22);
+	color: #5e5e5e;
+}
+
+#searchinput:focus {
+	color: #404040;
+	border-color: #AAA;
+}
+
+#searchbutton {
+	width: 35px;
+	height: 26px;
+	line-height: 1.5em;
+	background: #555;
+	border: 1px solid #222;
+	border-radius: 3px;
+	box-shadow: inset 0 1px rgba(255,255,255,.18);
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+	cursor: pointer;
+}
+/***************************************************/
+/* Search form CSS */
+form#srcform {
+	background: #EEE;
+	padding: 10px;
+}
+
+form#srcform fieldset {
+}
+
+form#srcform input {
+	vertical-align: middle;
+	font-size: 11px;
+}
+
+form#srcform #srcinput {
+	padding: 4px;
+	width: 250px;
+	background: #FFF;
+	color: #333;
+	font-weight: normal;
+	border: 1px solid #ddd;
+}
+
+form#srcform #srcbutton {
+	padding: 2px;
+	width: 50px;
+	background: #aaa;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+}
+/***************************************************/
+#logo {
+	float: left;
+	display: inline;
+	margin-top: 34px;
+	margin-left: 10px;
+	margin-right: 20px;
+	width: 321px;
+	height: 65px;
+}
+
+#logo h1 {
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	color: #FFF;
+	width: 321px;
+	height: 65px;
+}
+
+#logo h1 a {
+	display: block;
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	color: #FFF;
+	text-indent: -9999px;
+	background: url(images/logo.png) no-repeat top left;
+	width: 321px:
+	height: 65px;
+	line-height: 65px;
+}
+
+#ghentwebvalley {
+	float: right;
+	display: inline;
+	width: 75px;
+	height: 65px;
+	margin-top: 34px;
+
+}
+/***************************************************/
+#column {
+	float: left;
+	width: 540px;
+	margin-right: 20px;
+}
+
+.post {
+	margin-top: 20px;
+}
+
+.post a {
+	color: #189dc4;
+}
+
+.post a:hover {
+	color: #137E9E;
+}
+
+.post-top {
+	width: 540px;
+	height: 10px;
+	background: url(images/post-top.png) no-repeat;
+	overflow: hidden;
+}
+
+.post-bottom {
+	width: 540px;
+	height: 10px;
+	background: url(images/post-bottom.png) no-repeat;
+	overflow: hidden;
+}
+
+.entry {
+	background: #FFF;
+	border-right: 1px solid #d1d1d1;
+	border-left: 1px solid #d1d1d1;
+}
+
+.entry h2 {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	line-height: 1.3em;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+
+.entry h2 a {
+	line-height: 1.3em;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+
+.entry .date {
+	display: block;
+	margin-left: 15px;
+	margin-right: 15px;
+	color: #999;
+	padding-bottom: 5px;
+	font-size: 11px;
+}
+
+/********* CSS For Post Info Below Header ***************/
+.info {
+	background: #f6f6f6;
+	border-top: 1px dotted #ddd;
+	border-bottom: 1px dotted #ddd;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 11px;
+}
+
+.info .cat {
+	float: left;
+}
+
+.info .comments {
+	float: right;
+}
+
+.info .cat a {
+	line-height: 26px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.info .comments a {
+	line-height: 26px;
+	background: url(images/ico-comment.png) no-repeat;
+	background-position: left center;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 15px;
+}
+/********* CSS For Article CONTENT ***************/
+.content {
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 1px;
+}
+
+.content h1, .content h2, .content h3, .content h5, .content h6 {
+	line-height: 1.5em;
+	margin: 0px 0px 5px 0px;
+	padding: 0;
+}
+.content h4 {
+	line-height: 1.5em;
+	margin: 0px;
+	padding: 0px;
+}
+
+.content p {
+	font-size: 12px;
+	line-height: 1.5em;
+	margin: 0px 0px 10px 0px;
+	padding: 0;
+}
+
+.content .more-link {
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+}
+
+.content h1 {
+	letter-spacing: -2px;
+	font-size: 22px;
+	color: #aeaeae;
+}
+
+.content h2 {
+	letter-spacing: -1px;
+	font-size: 20px;
+	color: #666666;
+}
+
+.content h3 {
+	letter-spacing: -1px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #444444;
+}
+
+.content h4 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.content h5 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #999;
+}
+
+.content h6 {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+/* CSS for UL/OL lists */
+.content ol {padding-left: 20px;}
+.content ul {margin: 5px 5px 20px 5px;}
+.content ol {margin: 5px 5px 20px 5px;}
+.content ul ul {margin: 5px 5px 5px 5px;}
+.content ol ol {margin: 5px 5px 5px 5px;}
+
+.content ol li {
+	line-height: 1.2;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+
+.content ul li {
+	line-height: 1.2;
+	background: url(images/bullet.png) no-repeat;
+	background-position: 5px 4px;
+	padding-left: 20px;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+/* End CSS for UL/OL lists */
+
+/* Additional post tags */
+blockquote {
+	padding: 10px;
+	padding-left: 40px;
+	background: #f4f4f4 url(images/blockquote.png) no-repeat;
+	background-position: 8px 8px;
+	margin-bottom: 15px;
+}
+
+blockquote p {
+	font-family: georgia, arial;
+	line-height: 1.5em;
+	font-size: 12px;
+	color: #656565;
+}
+
+blockquote * {
+	font-family: georgia, arial;
+	line-height: 1.5em;
+	font-size: 12px;
+	color: #656565;
+}
+
+ins {
+	text-decoration: underline;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+code {
+	color: #333;
+	font-family: verdana;
+	font-size: 11px;
+	background: #eee;
+}
+
+.tags {
+	font-weight: bold;
+	line-height: 2em;
+	color: #bbb;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: right;
+	font-size: 11px;
+}
+
+.tags a {
+	font-weight: normal;
+	color: #333;
+	text-transform:lowercase;
+}
+
+.tags a:hover {
+	color: #ff9600;
+}
+
+.follow {
+	background: #fcffeb;
+	padding: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #dcddd6;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.follow a {
+	font-weight:bold;
+	background: url(images/rss.png) no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+}
+
+.state {
+	margin-left: 15px;
+	margin-bottom: 15px;
+	font-size: 12px;
+	line-height: 1.5em;
+}
+
+.state a {
+	line-height: 1.5em;
+}
+/***************************************************/
+.navigation {
+	padding: 20px 5px 0px 5px;
+	font-size: 11px;
+	line-height: 1em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.navigation a {
+	color: #333;
+}
+
+.navigation a:hover {
+	color: #189dc4;
+}
+
+.navleft {
+	float: left;
+	width: 48%;
+}
+
+.navright {
+	float: right;
+	width: 48%;
+	text-align: right;
+}
+/***************************************************/
+.alignleft img, .alignright img, .aligncenter img {
+	border: 4px solid #ccc;
+}
+
+.alignleft {
+	float: left;
+	display: inline;
+	background: #fff;
+	margin-right: 10px;
+	margin-bottom: 4px;
+}
+
+.alignright {
+	float: right;
+	display: inline;
+	background: #fff;
+	margin-left: 10px;
+	margin-bottom: 4px;
+}
+
+.aligncenter {
+	text-align: center;
+	display: inline;
+}
+
+.alignnone {
+}
+
+p.wp-caption-text {
+	padding: 3px;
+	margin: 0;
+	font-size: 11px;
+	color: #999;
+}
+/***************************************************/
+#sidebar {
+	float: left;
+	width: 200px;
+}
+.sidebar {
+	float: left;
+	width: 200px;
+	margin-right: 20px;
+	font-size: 11px;
+}
+
+.sidebar a {
+	color: #189dc4;
+}
+
+.sidebar a:hover {
+	color: #137E9E;
+}
+
+.sidebar ul li h2 {
+	margin-top: 20px;
+	display: block;
+	background: #595A5D;
+	width: 200px;
+	height: 29px;
+	color: #FFF;
+	line-height: 27px;
+	font-weight: bold;
+	text-indent: 10px;
+	font-size: 11px;
+}
+
+.sidebar ul li div {
+	padding: 10px;
+	border-left: 1px solid #d1d1d1;
+	border-right: 1px solid #d1d1d1;
+	border-bottom: 1px solid #d1d1d1;
+	line-height: 1.4em;
+	font-size: 11px;
+}
+/***********************************************/
+.sidebar ul ul {
+	padding: 10px;
+	border-left: 1px solid #d1d1d1;
+	border-right: 1px solid #d1d1d1;
+	border-bottom: 1px solid #d1d1d1;
+	background-color: #ffffff;
+}
+
+.sidebar ul ul ul {
+	padding: 0px;
+	border: 0;
+	background: #FFF;
+}
+
+.sidebar ul li ul li {
+	display: block;
+	background: url(images/bullet.png) no-repeat;
+	background-position: left 7px;
+	border-bottom: 1px dotted #ddd;
+	padding-left: 20px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.sidebar ul li ul li.current_page_item {
+	display: block;
+	background: url(images/bullet-current.png) no-repeat;
+	background-position: left 7px;
+	border-bottom: 1px dotted #ddd;
+	padding-left: 20px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.sidebar ul li ul li a {
+	display: block;
+	color: #189dc4;
+	line-height: 1.4em;
+}
+
+.sidebar ul li ul li a:hover {
+	color: #137E9E;
+}
+
+.sidebar ul li ul li.current_page_item a {
+	display: block;
+	color: #c91919;
+	line-height: 1.4em;
+}
+
+.sidebar .textwidget {
+	background-color: #ffffff;
+}
+
+ul.children li {
+	border: 0px !important;
+	padding: 3px 0px 2px 20px !important;
+}
+/***************************************************/
+#footer {
+	margin-top: 60px;
+	width: 100%;
+	background: #919191;
+	border-top: 5px solid #aaa;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+#footercontent {
+	width: 760px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.left {
+	float: left;
+	width: 400px;
+	text-align: left;
+	font-size: 11px;
+	line-height: 2em;
+	color: #feffe3;
+	}
+
+.rss a {
+	font-weight: bold;
+	background: url(images/rss.png) no-repeat left;
+	padding-left: 25px;
+	line-height: 1.5em;
+	color: #feffe3;
+	margin-right: 20px;
+}
+
+.rss a:hover {
+	color: #feefa6;
+}
+
+.copyright a, .openminds a, .wordpress a {
+	font-weight: bold;
+	color: #feffe3;
+}
+
+.copyright a:hover, .openminds a:hover, .wordpress a:hover {
+	color: #feefa6;
+}
+
+.right {
+	float: right;
+	width: 300px;
+	color: #feffe3;
+	font-size: 11px;
+	line-height: 2em;
+	text-align: right;
+}
+
+.openminds a img {
+	margin: 0 0 -7px 7px;
+}
+
+.rss, .copyright, .openminds, .wordpress {
+	color: #d5d5c4;
+}
+
+/***************************************************/
+/* CSS for Search Results Only Optional */
+.result {
+	border-top: 1px solid #ddd;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 11px;
+}
+
+.result h3 {
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	padding:0;margin:0;
+	line-height: 1em;
+}
+
+.result h3 a {
+	font-size: 16px;
+	font-weight: bold;
+
+	letter-spacing: -1px;
+	padding:0;margin:0;
+	line-height: 1em;
+}
+
+.result .rdate {
+	float: left;
+	line-height: 2em;
+	color: #aaa;
+}
+
+.result .rcomment {
+	float: right;
+	line-height: 1.5em;
+	color: #aaa;
+	font-weight: bold;
+}
+
+.result .rcomment a {
+	color: #999;
+	font-weight: bold;
+}
+
+.result .rcomment a:hover {
+	color: #ff9600;
+}
+
+.result .rsummary {
+	padding: 10px;
+	border: 1px dotted #eee;
+	background: #f8fcef;
+}
+
+.result .rsummary p {
+	font-size: 12px;
+	margin:0;
+	padding:0;
+}
+
+.result .rcat {
+	float: left;
+	line-height: 2em;
+	color: #aaa;
+}
+
+.result .rcat a {
+	color: #999;
+	font-weight: bold;
+}
+
+.result .rcat a:hover {
+	color: #ff9600;
+}
+
+.result .rtags {
+	float: right;
+	line-height: 2em;
+	color: #aaa;
+}
+
+.result .rtags a {
+	color: #999;
+	text-transform: lowercase;
+}
+
+.result .rtags a:hover {
+	color: #a2d700;
+}
+/***************************************************/
+/*           Commenting System CSS        */
+#combox {
+	border-top: 5px solid #bbb;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+h3#respond {
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 1em;
+	padding-bottom: 5px;
+	margin-bottom: 2px;
+	border-bottom: 1px dotted #ddd;
+}
+
+h3#comments {
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 1em;
+	padding-bottom: 5px;
+	margin-bottom: 2px;
+	border-bottom: 1px dotted #ddd;
+}
+
+ol.commentlist {
+	list-style-type: none;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 5px solid #ffd576;
+}
+
+ol.commentlist li {
+	background: #f8fcef;
+	border: 1px solid #eee;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+ol.commentlist li.alt {
+	background: #FFF;
+	border: 1px solid #eee;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.avatar {
+	float: left;
+	display: inline;
+	width: 32px;
+}
+
+.commentbody {
+	float: left;
+	display: inline;
+	margin-left: 20px;
+	width: 410px;
+}
+
+.commentbody em {
+	font-size: 11px;
+}
+/***************************************************/
+p.comment_author {
+	font-weight: bold;
+	color: #646464;
+	font-size: 11px;
+}
+
+p.comment_author a {
+	font-weight: bold;
+	color: #ff3600;
+}
+
+p.comment_author a:hover {
+	font-weight: bold;
+	color: #646464;
+	font-size: 11px;
+}
+
+p.comment_time {
+	line-height: 1.5em;
+	color: #999;
+	font-size: 10px;
+	font-family: tahoma;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.comment_text {
+	line-height: 1.5em;
+	color: #333;
+	margin-top: 15px;
+	font-size: 11px;
+}
+/***************************************************/
+.reply form {
+	background: #EEE;
+	width: 488px;
+	padding: 10px;
+}
+
+.reply p {
+	margin-top: 10px;
+	font-size: 11px;
+}
+
+.reply fieldset {
+	vertical-align: middle;
+	display: inline;
+}
+
+.reply input {
+	vertical-align: middle;
+	display: inline;
+	font-size: 11px;
+}
+
+.reply textarea {
+	vertical-align: middle;
+	display: inline;
+	font-size: 11px;
+}
+
+.reply label {
+	vertical-align: middle;
+	display: inline;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: tahoma;
+	margin-left: 10px;
+}
+
+.replytext {
+	border: 1px solid #fde1c6;
+	width: 200px;
+	padding: 5px;
+	color: #737373;
+}
+
+.replytext:focus {
+	border: 1px solid #fcd8a2;
+	background: #fefff7;
+}
+
+.replyarea {
+	border: 1px solid #fde1c6;
+	line-height: 1.5em;
+	padding: 5px;
+	width: 470px;
+	height: 120px;
+	color: #737373;
+}
+
+.replyarea:focus {
+	border: 1px solid #fcd8a2;
+	background: #fefff7;
+}
+
+.replybutton {
+	background: url(images/tab.png) repeat-x;
+	text-align: center;
+	width: 100px;
+	height: 25px;
+	font-weight: bold;
+	color: #FFF;
+	cursor: pointer;
+}
+/***************************************************/
+.twtr-widget, .twtr-doc, .twtr-hd, .twtr-bd, .twtr-ft, .twtr-timeline, .twtr-tweets, .twtr-reference-tweet, .twtr-tweet-wrap, .twtr-avatar, .twtr-tweet-text, .twtr-ft div {
+	border: 0px !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+.twtr-tweet {
+	border-bottom: 1px solid #d1d1d1 !important;
+	border-left: 0px !important;
+	border-right: 0px !important;
+	margin: 0px !important;
+	padding: 7px 0 7px 0 !important;
+}
+.twtr-ft {
+	display: none;
+}
+.twtr-tweet-text p em {
+	padding-top: 5px !important;
+}
+
+/*
+	Events
+*/
+
+.vevent dl {
+	margin-bottom: 20px;
+}
+
+	.vevent dt {
+		clear: left;
+		float: left;
+		font-weight: 700;
+		margin-right: .5em;
+	}
+
+	.vevent dd {
+		margin: 10px 0;
+	}
+
+.vevent table {
+	border-collapse: collapse;
+}
+
+	.vevent th,
+	.vevent td {
+		padding: 10px;
+		border: 1px solid #ddd;
+	}
+
+	.vevent th {
+		background: #F0F0F0;
+	}
+
+	.vevent table b {
+		display: block;
+	}
+
+	.vevent .em-booking-form-details {
+		margin: 0;
+		padding: 0 0 20px;
+		width: 100%;
+	}
+
+		.vevent .em-booking-form-details label {
+			display: block;
+			font-size: 15px;
+			margin: 10px 0;
+		}
+
+		.vevent .em-booking-form-details textarea {
+			width: 486px;
+			height: 60px;
+			border-radius: 3px;
+			border-color: #ddd;
+			box-shadow: inset 0 2px 3px #CCC;
+			font-size: 15px;
+			line-height: 24px;
+			padding: 10px;
+		}
+
+		.vevent .em-booking-form-details input.input {
+			border-radius: 3px;
+			border-color: #ddd;
+			box-shadow: inset 0 2px 3px #CCC;
+			font-size: 15px;
+			line-height: 24px;
+			padding: 3px 5px;
+		}
+
+		.vevent .em-booking-form-details input.input:focus,
+		.vevent .em-booking-form-details textarea:focus {
+			border-color: #aaa;
+		}
+
+		.vevent .em-booking-buttons input {
+			display: block;
+			border-radius: 3px;
+			padding: 10px 20px;
+			text-align: center;
+			font-size: 18px;
+			background: #189dc4;
+			color: #fff;
+			border-color: #0D84AF;
+			box-shadow: inset 0 1px rgba(255,255,255,.22), 0 2px 1px rgba(0,0,0,.18);
+		}
+
+		.vevent .em-booking-buttons input:hover {
+			background: #49B5DC;
+		}
+
+		.vevent .em-booking-buttons input:active {
+			box-shadow: inset 0 1px 5px rgba(0,0,0,.44);
+		}
